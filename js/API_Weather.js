@@ -3,7 +3,7 @@
 // Clé api
 const API_KEY = "4081444b7b90198136fefe6ed4ccf35b";
 // Url API
-const API_URL = "https://api.openweathermap.org/data/2.5/weather";
+const API_URL = "https://api.openweathermap.org/data/2.5/forecast/daily?q={city-input}&cnt={3}&appid={4081444b7b90198136fefe6ed4ccf35b}";
 // Base source icon
 const API_URL_ICON = "http://openweathermap.org/img/wn/";
 

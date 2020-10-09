@@ -22,6 +22,7 @@ function start() {
       document.getElementById('today-forecast-more-info').innerHTML = description;
       document.getElementById('icon-weather-container').innerHTML = icon;
       document.getElementById('today-forecast-temp').innerHTML = `${temp}°C`;
+      var element =  document.getElementById('city-input').innerHTML = main;
       
     })
     .catch(function(error) {
