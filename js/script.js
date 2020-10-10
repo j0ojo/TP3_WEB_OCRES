@@ -24,6 +24,10 @@ function start() {
       document.getElementById('icon-weather-container').innerHTML = icon;
       document.getElementById('today-forecast-temp').innerHTML = `${temp}°C`;
 
+      document.getElementById("city-input").addEventListener("click",function() );
+      
+      return response.fetchTodayForecast();
+
       
     })
     .catch(function(error) {
