@@ -30,7 +30,7 @@ function start() {
     });
 }
 
-function start2(text) {
+function start1(text) {
   // Création de l'objet apiWeather
   const apiWeather = new API_WEATHER(text);
   // Appel de la fonction fetchTodayForecast
