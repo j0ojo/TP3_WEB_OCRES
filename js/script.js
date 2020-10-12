@@ -1,6 +1,6 @@
 
 // Fonction appelée lors du click du bouton
-document.getElementById("button-load-forecast").onload = function { start() {
+function start() {
   // Création de l'objet apiWeather
   const apiWeather = new API_WEATHER();
   // Appel de la fonction fetchTodayForecast
@@ -29,5 +29,4 @@ document.getElementById("button-load-forecast").onload = function { start() {
       // Affiche une erreur
       console.error(error);
     });
-}
 }
